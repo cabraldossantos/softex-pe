@@ -1,2 +1,2 @@
 # softex-pe
- Atividades do Curso formação Acelerada em Programação (FAP) na Softex Pernambuco.
+ Atividades do Curso Formação Acelerada em Programação (FAP) na Softex Pernambuco.
