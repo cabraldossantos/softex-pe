@@ -11,13 +11,13 @@ class Calculadora:
         self.SAIR = 0
 
     def inicializar_calculadora(self):
-        print("Você está num ambiente de numa calculadora.")
+        print("\nVocê está no ambiente de numa calculadora.\n")
         print("Abaixo segue a legenda das operações possíveis:")
         print("1: Somar")
         print("2: Subtrair")
         print("3: Multiplicar")
         print("4: Dividir")
-        print("0: Sair")
+        print("0: Sair\n")
 
     def mostrar_opcoes(self):
         print()
@@ -27,7 +27,8 @@ class Calculadora:
         print("2: Subtrair")
         print("3: Multiplicar")
         print("4: Dividir")
-        print("0: Sair")
+        print("0: Sair\n")
+
 
     def calcular(self):
         resultado = 0
@@ -48,8 +49,11 @@ class Calculadora:
             operacao = "MULTIPLICAR (" + str(self.numero_1_da_operacao) + "*" + str(self.numero_2_da_operacao) + ")"
 
         if self.operacao == self.DIVIDIR:
-            resultado = self.numero_1_da_operacao / self.numero_2_da_operacao
-            operacao = "DIVIDIR (" + str(self.numero_1_da_operacao) + "+" + str(self.numero_2_da_operacao) + ")"
+            if self.numero_2_da_operacao == 0:
+                return "A divisão por '0' (zero) não é possível nesse contexto."
+            else:
+                resultado = self.numero_1_da_operacao / self.numero_2_da_operacao
+                operacao = "DIVIDIR (" + str(self.numero_1_da_operacao) + "+" + str(self.numero_2_da_operacao) + ")"
 
         return "O resultado da operação " + str(operacao) + " é " + str(resultado) + "."
 
