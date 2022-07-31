@@ -1,3 +1,5 @@
+package com.cabral.atividade23;
+
 public class Caneta {
     private static int quantidadeDeCanetas = 0;
     

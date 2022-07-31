@@ -1,3 +1,5 @@
+package com.cabral.atividade23;
+
 public class App {
     /**
      * @param args
