@@ -1,3 +1,5 @@
+package com.cabral.atividade22;
+
 public class App {
     public static void main(String[] args) throws Exception {
         Caneta c1 = new Caneta();
