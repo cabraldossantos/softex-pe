@@ -41,5 +41,7 @@ public class App {
 
         // 3) serialização: gravando o objeto no arquivo binário "dados.dat"
         Empacotamento.gravarArquivoBinario(pessoa, "dados.dat");
+
+        ler.close();
     }
 }

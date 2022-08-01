@@ -44,7 +44,7 @@ public class Pessoa implements Serializable {
         if (valorIMC < 18.5)
             return ("Baixo peso.");
         else if (valorIMC < 25.0)
-            return ("Pesso adequado.");
+            return ("Peso adequado.");
         else if (valorIMC < 30.0)
             return ("Sobrepeso.");
         else
