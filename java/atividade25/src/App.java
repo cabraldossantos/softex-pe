@@ -15,7 +15,7 @@ public class App {
         System.out.println("\nMÉTODO: split.");
         String[] valorComSplit = valor.split("-");
         for(String s : valorComSplit){
-            System.out.println(s);
+            System.out.println(s.trim());
         }
     }
 }
