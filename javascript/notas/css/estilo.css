@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    background-color: #e3e3e3;
+    padding: 10px;
+    margin: 0;
+}
+
+h2 {
+    color: #606060;
+}
+
+p {
+    margin-top: 0px;
+}
+
+input {
+    font-size: 16px;
+}
+
+div {
+    margin-top: 15px;
+    background-color: #d3d3d3;
+    padding: 5px;
+}

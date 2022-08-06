@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de notas para uma escola</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Sistema de Notas</h1>
+    <hr>
+    <h2>Para ser aprovado o aluno precisa obter nota igual ou superio a 7 (sete).</h2>
+    <hr>
+    <h3>Média com base em 03 (três) notas</h3>
+    <p>Informe as três notas do aluno:</p>
+    <input type="text" name="nota1-3" id="nota1-3" placeholder="Informe a 1ª nota">
+    <input type="text" name="nota2-3" id="nota2-3" placeholder="Informe a 2ª nota">
+    <input type="text" name="nota3-3" id="nota3-3" placeholder="Informe a 3ª nota">
+    <input type="button" value="Calcular" name="btnCalcularMediaTresNotas" id="btnCalcularMediaTresNotas">
+    <input type="button" value="Limpar" name="btnLimparMediaTresNotas" id="btnLimparMediaTresNotas">
+    <div id="resultado-tres-notas">Resultado</div>
+    <hr>
+    
+    <h3>Média com base em 02 (duas) notas</h3>
+    <p>Informe as três notas do aluno:</p>
+    <input type="text" name="nota1-2" id="nota1-2" placeholder="Informe a 1ª nota">
+    <input type="text" name="nota2-2" id="nota2-2" placeholder="Informe a 2ª nota">
+    <input type="button" value="Calcular" name="btnCalcularMediaDuasNotas" id="btnCalcularMediaDuasNotas">
+    <input type="button" value="Limpar" name="btnLimparMediaDuasNotas" id="btnLimparMediaDuasNotas">
+    <div id="resultado-duas-notas">Resultado</div>
+    
+    <script src="js/medias.js"></script>
+</body>
+</html>
