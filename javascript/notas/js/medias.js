@@ -4,6 +4,8 @@ window.document.querySelector('input#btnLimparMediaTresNotas').addEventListener(
 window.document.querySelector('input#btnCalcularMediaDuasNotas').addEventListener('click', calcularMediaDuasNotas)
 window.document.querySelector('input#btnLimparMediaDuasNotas').addEventListener('click', limparDuasNotas)
 
+window.document.querySelector('input#nota2-2').addEventListener('blur', notaMinima)
+
 var nota13 = window.document.querySelector('input#nota1-3')
 var nota23 = window.document.querySelector('input#nota2-3')
 var nota33 = window.document.querySelector('input#nota3-3')
@@ -23,11 +25,8 @@ function calcularMediaTresNotas() {
     media3 = (n13 + n23 + n33) / 3
 
     var resultado = `A média do aluno é <strong>${media3.toFixed(2)}</strong>. `
-    if (media3 >= 7) {
-        resultado += `Congratulações! <strong>APROVADO</strong>.`
-    } else {
-        resultado += `Lamentamos. <strong>REPROVADO</strong>.`
-    }
+    
+    media3 >= 7 ? resultado += `Congratulações! <strong>APROVADO</strong>.` : resultado += `Lamentamos. <strong>REPROVADO</strong>.`
 
     resultado3.innerHTML = resultado
 }
@@ -43,15 +42,13 @@ function limparTresNotas() {
 function calcularMediaDuasNotas() {
     var n12 = Number(nota12.value)
     var n22 = Number(nota22.value)
+    var notaMinima = 21 - (n12 + n22)
     media2 = (n12 + n22) / 2
 
-    var resultado = `A média do aluno é <strong>${media2.toFixed(2)}</strong>. `
-    if (media2 >= 7) {
-        resultado += `Congratulações! <strong>APROVADO</strong>.`
-    } else {
-        resultado += `Lamentamos. <strong>REPROVADO</strong>.`
-    }
+    var resultado = `<p>A média do aluno até o momento é <strong>${media2.toFixed(2)}</strong>.</p>`
 
+    resultado += `A nota mínima para o alcance da média 7 (sete) é <strong>${notaMinima.toFixed(2)}</strong>.`
+    
     resultado2.innerHTML = resultado
 }
 
@@ -60,4 +57,8 @@ function limparDuasNotas() {
     nota22.value = ''
     media2 = 0
     resultado2.innerHTML = 'Resultado'
+}
+
+function notaMinima() {
+
 }
