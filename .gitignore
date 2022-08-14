@@ -18,3 +18,8 @@ bin
 classes
 *~
 .vscode
+
+# JavaScript
+javascript/rotas-http/node_modules
+javascript/rotas-http/local-configuration
+javascript/rotas-http/.env
