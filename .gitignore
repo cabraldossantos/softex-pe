@@ -23,3 +23,7 @@ classes
 javascript/rotas-http/node_modules
 javascript/rotas-http/local-configuration
 javascript/rotas-http/.env
+
+javascript/banco-de-dados/node_modules
+javascript/banco-de-dados/local-configuration
+javascript/banco-de-dados/.env
