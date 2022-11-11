@@ -2,10 +2,10 @@
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope/" 
     soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
     <soap:Body xmlns:m="http://www.example.org/stock">
-		<m:InformacoesCliente>
+	<m:InformacoesCliente>
 		<m:Nome>Abraão Lima Santana</m:Nome>
-        <m:Endereco>R. da Guia, 142 - Recife, PE, 50030-210</m:Endereco>
-        <m:Telefone>(81) 3224-4251)</m:Telefone>
+        	<m:Endereco>R. da Guia, 142 - Recife, PE, 50030-210</m:Endereco>
+        	<m:Telefone>(81) 3224-4251)</m:Telefone>
         </m:InformacoesCliente>
     </soap:Body>
 </soap:Envelope>
