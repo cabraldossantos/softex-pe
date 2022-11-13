@@ -27,3 +27,5 @@ javascript/rotas-http/.env
 javascript/banco-de-dados/node_modules
 javascript/banco-de-dados/local-configuration
 javascript/banco-de-dados/.env
+
+web-service/atividade-05/node_modules
