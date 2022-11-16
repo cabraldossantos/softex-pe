@@ -33,7 +33,7 @@ web-service/atividade-05/node_modules
 web-service/atividade-06/.mvn/wrapper/maven-wrapper.jar
 web-service/atividade-06/HELP.md
 web-service/atividade-06/target/
-!**/src/main/**/target/
+web-service/atividade-06/**/src/main/**/target/
 !**/src/test/**/target/
 
 ### STS ###
