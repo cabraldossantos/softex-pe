@@ -29,3 +29,38 @@ javascript/banco-de-dados/local-configuration
 javascript/banco-de-dados/.env
 
 web-service/atividade-05/node_modules
+
+web-service/atividade-06/.mvn/wrapper/maven-wrapper.jar
+web-service/atividade-06/HELP.md
+web-service/atividade-06/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+web-service/atividade-06/.apt_generated
+web-service/atividade-06/.classpath
+web-service/atividade-06/.factorypath
+web-service/atividade-06/.project
+web-service/atividade-06/.settings
+web-service/atividade-06/.springBeans
+web-service/atividade-06/.sts4-cache
+
+### IntelliJ IDEA ###
+web-service/atividade-06/.idea
+web-service/atividade-06/*.iws
+web-service/atividade-06/*.iml
+web-service/atividade-06/*.ipr
+
+### NetBeans ###
+web-service/atividade-06/nbproject/private/
+web-service/atividade-06/nbbuild/
+web-service/atividade-06/dist/
+web-service/atividade-06/nbdist/
+web-service/atividade-06/.nb-gradle/
+web-service/atividade-06/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+web-service/atividade-06/.vscode/
+
