@@ -1,0 +1,65 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": " json-server ",
+      "author": " typicode "
+    },
+    {
+      "id": 2,
+      "title": " web-service ",
+      "author": " typicode "
+    },
+    {
+      "id": 3,
+      "title": " SOAP ",
+      "author": " typicode "
+    },
+    {
+      "id": 4,
+      "title": " JavaScript ",
+      "author": " typicode "
+    },
+    {
+      "id": 5,
+      "title": " html/css ",
+      "author": " abimaleque "
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": " algum comentário ",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": " mais um comentário sobre a postagem um ",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": " algum comentário sobre a postagem 2 ",
+      "postId": 2
+    },
+    {
+      "body": " algum comentário da postagem cinco ",
+      "postId": 5,
+      "id": 4
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "name": " typicode "
+    },
+    {
+      "id": 2,
+      "name": " abimaleque "
+    },
+    {
+      "name": " salatiel abimael ",
+      "id": 3
+    }
+  ]
+}
